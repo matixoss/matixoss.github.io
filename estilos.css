@@ -200,8 +200,9 @@ html {
     align-content: center;
     flex-wrap: wrap;
     padding: 5px;
-    flex: 100%;
-
+}
+.photoGallery{
+    width: 280px;
 }
 /* Media Queries */
  @media (max-width: 800px){
@@ -274,6 +275,133 @@ html {
             width: 300px;
             height: 250px;
         }
-   
+        .title{
+            font-size: 1rem;
+        }
+        .galeria{
+            font-size: 1rem;
+        }
+        .integrants{
+            font-size: 1rem;
+        }
+        .integrant_subtitle{
+            font-size: 1rem;
+        }
+        .integrant_paragraph{
+            font-size: 0.7rem;
+        }
+        .integrant_img{
+            width: 200px;
+            height: 200px;
+        }
+        .integrant_img3{
+            width: 200px;
+            height: 200px;
+        }
+        .socialmedia{
+            font-size: 1rem;
+        }
+        .click{
+            font-size: 0.8rem;
+        }
+        .copyright{
+            font-size: 0.8rem;
+        }
+    }
+        @media (max-width: 300px) {
+        .image {
+            width: 150px;
+            height: 150px;
+            padding-left: 40px; 
+        }
+        .nav_logo {
+            font-size: 0.5em;
+        }
+        .hero_title {
+            font-size: 0.7rem;
+                 }
+        .hero_paragraph {
+            font-size: 0.4rem;
+                 }
+        .subtitle {
+            font-size: 1.5rem;
+        }
+        .video {
+            width: 200px;
+            height: 150px;
+        }
+        .groups {
+            width: 200px;
+            height: 200px;
+        }
+        .photoGallery{
+            width: 150px;
+            height: 200px;
+        }
+        .galeria {
+            font-size: 0.7rem;
+        }
+        .integrants {
+            font-size: 0.7rem;
+        }
+        .integrant_subtitle {
+            font-size: 0.7rem;
+        }
+        .integrant_paragraph{
+            font-size: 0.5rem;
+        }
+        .integrant_img {
+            width: 150px;
+            height: 150px;
+        }
+        
+        .integrant_img3 {
+            width: 150px;
+            height: 150px;
+        }
+        .flechas {
+             width: 50%;
+            cursor: pointer;
+        }
+        .title {
+            font-size: 0.7rem;
+        }
+        .socialmedia {
+            font-size: 0.7rem;
+        }
+        .click {
+            font-size: 0.7rem;
+        }
+        .copyright{
+            font-size: 0.7rem;
+        }
+        .instagram{
+            width: 30px;
+            height: 30px;
+        }
+        .youtube{
+            width: 30px;
+            height: 30px;
+        }
+        .whatsapp{
+            width: 30px;
+            height: 30px;
+        }
+        .facebook{
+            width: 30px;
+            height: 30px;
+        }
+        .tiktok{
+            width: 30px;
+            height: 30px;
+        }
+        .nav_img{
+            width: 30px;
+            height: 30px;
+        }
+        .nav_close{
+            width: 30px;
+            height: 30px;
+        }
     }
  }
